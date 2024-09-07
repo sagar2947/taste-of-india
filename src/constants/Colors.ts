@@ -1,4 +1,4 @@
-const tintColorLight = {
+export const tintColorLight = {
   primary: '#6200EE',  // Purple
   blue: '#1E88E5',     // Bright Blue
   green: '#4CAF50',    // Vibrant Green
@@ -7,7 +7,7 @@ const tintColorLight = {
   pink: '#E91E63',     // Pink
 };
 
-const tintColorDark = {
+export const tintColorDark = {
   primary: '#BB86FC',  // Light Purple
   blue: '#03A9F4',     // Electric Blue
   green: '#CDDC39',    // Lime Green
@@ -35,6 +35,7 @@ export default {
     cardBackground: '#F8F9FA', // white
     highlight: '#FFEB3B', // yellow
     disabled: '#BDBDBD', // light gray
+    accent: '#007BFF',
   },
   dark: {
     primaryText: '#E0E0E0', // light gray
@@ -50,8 +51,9 @@ export default {
     success: '#4CAF50', // green
     link: '#8AB4F8', // light blue
     headerBackground: '#1F1B24', // slightly lighter dark gray
-    cardBackground: '#1E1E1E', // charcoal gray
+    cardBackground: '#2A2A2A', // charcoal gray
     highlight: '#FFD54F', // yellow
     disabled: '#616161', // dark gray
+    accent: '#1E90FF',
   },
 };

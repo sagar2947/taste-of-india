@@ -27,7 +27,7 @@ const ProductDetailsScreen = () => {
             return
         }
         addItem(product, product.prices[index], quantity,sizes,index)
-        console.log(product, product.prices)
+        // console.log(product, product.prices)
     }
 
     const handleFabPress = () => {
@@ -45,7 +45,7 @@ const ProductDetailsScreen = () => {
         setIsClicked(true)
         setTimeout(() =>
             setIsClicked(false)
-            , 2000)
+            , 1200)
     }
 
     if (!product) {
